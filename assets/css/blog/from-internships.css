@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+.sp-br{
+	display: none;
+}
+.articles {
+	padding-bottom: 75px;
+}
+.fv {
+	background: url("../../img/blog/bg_blog_pc.jpg") no-repeat center center / cover;
+}
+.fv > div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+	height: 100%;
+	min-height: 300px;
+}
+.fv span {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	font-size: 3.6rem;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+/*ex*/
+.from-internships div.thumbs article {
+	width: calc(100%/3 - 15px);
+}
+.from-internships.blog .conts h2::before {
+	 background: linear-gradient(to right, #344754 0%, #d4cfc9 50%, #344754 100%);
+	top: auto;
+	bottom: 0;
+}
+.from-internships .thumb-txt a {
+	color: #344754;
+    border-color: #344754;
+}
+.from-internships .arrow-line::before, .from-internships .arrow-line::after {
+    background: #344754;
+}
+.from-internships .main-txt h2::before {
+	background: linear-gradient(to right, #344754 0%, #d4cfc9 100%);
+}
+.from-internships .main-txt h3 {
+	color: #344754;
+	border-left-color: #344754;
+}
+.from-internships .main-txt h4 {
+	color: #344754;
+	border-bottom-color: #344754;
+}
+@media screen and (max-width: 900px) {
+	.sp-br{
+		display: block;
+	}
+	.pc-br{
+		display: none;
+	}
+	/*fv*/
+	.fv {
+		background: url(../../img/blog/bg_blog_sp.jpg) no-repeat center center / cover;
+	}
+	.fv span {
+		font-size: 2.4rem;
+	}
+	.from-internships.blog .conts h2::before {
+		top: auto;
+		bottom: 0;
+	}
+	.from-internships div.thumbs article {
+	width: 100%;
+	}
+}

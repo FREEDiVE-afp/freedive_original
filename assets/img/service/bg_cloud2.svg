@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdfbfb;
+        stroke: #cccaca;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="シェイプ_1_のコピー" data-name="シェイプ 1 のコピー" class="cls-1" d="M175.762,118.512s426.4-221.88,639.2-45.051C1015.38,240.005,1045,355.032,942.241,562.859c-82.089,166.03-252.913,173.119-418.808,143.659C345.551,674.93,189.994,667.186,101.67,553.781,19.925,448.823-110.234,235.4,175.762,118.512Z"/>
+</svg>

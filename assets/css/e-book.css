@@ -1,0 +1,212 @@
+.conts {
+  background: url("../img/bg-txtlogo.svg") 10% center/7% fixed no-repeat;
+}
+
+.fv {
+  min-height: 500px;
+}
+
+.fv-conts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 420px;
+}
+
+.fv-conts > * {
+  padding: 20px;
+  width: 50%;
+}
+
+.fv-text h1 {
+  color: #fff;
+  font-size: 4.0rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fv-text p {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.fv-img {
+  position: relative;
+}
+
+.fv-img img {
+  width: 100%;
+  height: auto;
+}
+
+.cv-btn {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  background: #F48500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 35px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.cv-btn:hover {
+  opacity: .7;
+}
+
+.document-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 -2.0rem;
+}
+
+.document-list-block {
+  display: block;
+  width: calc(100% / 2 - 4.0rem);
+  padding: 2.0rem;
+  margin: 2.0rem;
+  margin-bottom: 6.0rem;
+  border: 0.1rem solid #ddd;
+  background: #fff;
+}
+
+.document-list-block-image {
+  float: left;
+  width: 12.0rem;
+  height: 18.0rem;
+  margin-right: 4.0rem;
+  background: #fff;
+  -webkit-transform: skewY(5deg) translateY(-4rem);
+          transform: skewY(5deg) translateY(-4rem);
+  -webkit-box-shadow: 0.8rem 0.8rem 0.8rem #ddd;
+          box-shadow: 0.8rem 0.8rem 0.8rem #ddd;
+}
+
+.document-list-block-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.document-list-block-text {
+  float: right;
+  width: calc(100% - 16.0rem);
+}
+
+.document-list-block-text h2 {
+  font-size: 2.0rem;
+  line-height: 3.0rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.0rem;
+  color: #ff0066;
+}
+
+.document-list-block-text p {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 2.0rem;
+}
+
+.document-list-block-text a {
+  display: block;
+  width: 100%;
+  background: #ff0066;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1.0rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.document-list-block-text a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+  /*fv*/
+  .fv-conts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fv-conts > .fv-text {
+    width: 100%;
+  }
+  .fv-conts > .fv-img {
+    width: 70%;
+    margin: auto;
+  }
+  .document-list {
+    display: block;
+    margin: 0;
+  }
+  .document-list-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 2.0rem;
+    margin: 0;
+    margin-bottom: 6.0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fv-conts > .fv-img {
+    width: 100%;
+    margin: auto;
+  }
+  .document-list {
+    display: block;
+    margin: 0;
+  }
+  .document-list-block {
+    display: block;
+    width: 100%;
+    padding: 2.0rem;
+    margin: 0;
+    margin-bottom: 6.0rem;
+  }
+  .document-list-block-image {
+    margin: 0 auto;
+    float: none;
+  }
+  .document-list-block-text {
+    width: 100%;
+    float: none;
+  }
+}
+
+.catch {
+  background: url("../img/bg_e-book.jpg") no-repeat center center/cover;
+  min-height: 30.0rem;
+  width: 100%;
+}

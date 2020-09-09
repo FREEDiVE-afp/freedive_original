@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@keyframes drift {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes drift {
+  0% { -webkit-transform: -webkit-rotate(0deg); }
+  50% { -webkit-transform: -webkit-rotate(180deg); }
+  100% { -webkit-transform: -webkit-rotate(360deg); }
+}

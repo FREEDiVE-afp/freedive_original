@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdfbfb;
+        stroke: #cccaca;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="アートボード_1" data-name="アートボード 1">
+    <path id="シェイプ_1_のコピー_2" data-name="シェイプ 1 のコピー 2" class="cls-1" d="M567.749,231.507s152.48-48.1,206.5,29.965c43.376,62.68,48.979,97.443,27.227,167.643-18.353,59.232-59.13,74.136-115.148,70.766-58.924-3.546-135.164,2.886-175.66-54.245C443.091,350.3,445.631,254.507,567.749,231.507Z"/>
+  </g>
+</svg>
