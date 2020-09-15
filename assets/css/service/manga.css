@@ -1,0 +1,121 @@
+/*
+
+MANGA
+
+*/
+.fv-img img {
+  position: relative;
+  top: 60px;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0 0; }
+
+.cv-btn {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  background: #F48500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 35px;
+  transition: .3s; }
+
+.cv-btn:hover {
+  opacity: .7; }
+
+.fv-text h1 {
+  font-size: 4rem;
+  line-height: 5.6rem;
+  font-weight: bold;
+  color: #fff; }
+
+.manga {
+  width: 100%;
+  display: block;
+  background: #000; }
+  .manga-page {
+    position: relative; }
+    .manga-page-scroll {
+      position: absolute;
+      right: 0;
+      width: 100%;
+      top: 0; }
+      .manga-page-scroll img {
+        opacity: 1;
+        transition: 0.5s; }
+      .manga-page-scroll.hidden img {
+        opacity: 0; }
+    .manga-page-btn {
+      position: absolute;
+      bottom: 0;
+      padding: 40px 40px;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto; }
+      .manga-page-btn-cv {
+        position: relative;
+        display: block;
+        width: 60%;
+        padding: calc(30% - 1.2rem) 0;
+        color: #000;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        border-radius: none;
+        background-image: url("../../img/service/cv.png");
+        background-position: center;
+        background-size: 80% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: .3s; }
+        .manga-page-btn-cv:hover {
+          background-size: 100% auto; }
+        .manga-page-btn-cv span.arrow-double:before, .manga-page-btn-cv span.arrow-double:after {
+          border-top: 2px solid #000;
+          border-right: 2px solid #000; }
+  .manga img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0; }
+
+.inner720 {
+  max-width: 720px;
+  margin: 0 auto; }
+
+@media screen and (max-width: 900px) {
+  br.sp-only {
+    display: inline; }
+  .fv-text h1 {
+    font-size: 2.8rem;
+    line-height: 3.92rem;
+    font-weight: bold;
+    color: #fff; }
+  .fv-img img {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    height: 500px;
+    object-fit: contain;
+    object-position: center; }
+  .manga-page-btn-cv {
+    width: 75%;
+    padding: calc(40% - 1.0rem) 0;
+    font-size: 2.0rem;
+    line-height: 2.0rem; } }
+
+@media screen and (max-width: 480px) {
+  .manga-page-btn-cv {
+    width: 100%;
+    padding: calc(40% - 0.8rem) 0;
+    font-size: 1.6rem;
+    line-height: 1.6rem; } }

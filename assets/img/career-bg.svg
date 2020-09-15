@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="800" viewBox="0 0 1400 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="300" y1="5125" x2="1100" y2="5925" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdfbfb"/>
+      <stop offset="1" stop-color="#ebedee"/>
+    </linearGradient>
+  </defs>
+  <path id="career-bg.svg" class="cls-1" d="M0,5125H1400v800Z" transform="translate(0 -5125)"/>
+</svg>

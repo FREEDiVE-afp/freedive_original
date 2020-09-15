@@ -1,0 +1,69 @@
+.fv {
+  min-height: 500px;
+}
+
+.fv-conts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fv-conts > * {
+  padding: 20px;
+  width: 50%;
+}
+
+.fv-text h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fv-text p {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.fv-btn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  max-width: 300px;
+  width: 80%;
+}
+
+.fv-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  /*fv*/
+  .fv-conts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fv-conts > .fv-text {
+    width: 100%;
+  }
+  .fv-conts > .fv-img {
+    width: 70%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+first view
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
+@font-face {
+  font-family: 'abuget';
+	font-display: swap;
+  src: url('../../font/abuget.ttf') format('truetype');
+}
+.fv {
+	min-height: 500px;
+	background: url("../../img/bg_sea-and-logo.jpg") no-repeat center center / cover;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.fv h1 {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+.fv h1 span {
+	font-family: abuget, 'Homemade Apple', cursive;
+	font-size: 15rem;
+	font-weight: normal;
+}
+/*conts*/
+.conts {
+	background: url("../../img/bg-txtlogo.svg") 10% center / 7% fixed no-repeat;
+}
+/*catch*/
+.catch h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto 1em;
+}
+.catch h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 1em auto;
+}
+.catch p {
+	font-size: 1.6rem;
+	line-height: 1.75;
+	text-align: center;
+}
+.catch p + p {
+	margin-top: 1em;
+}
+/*feature*/
+.feature-panel h2 {
+	color: #fff;
+	font-size: 3rem;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.feature-panel h2 span {
+	font-family: abel;
+	font-size: 2rem;
+}
+.feature-panel p {
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	width: 50%;
+}
+.feature01 p,
+.feature03 p {
+	margin: 0 0 0 auto;
+}
+.feature-panel p + p {
+	margin-top: 1em;
+}
+.feature01 {
+	background: url("../../img/feature/bg_feature01_pc.jpg") no-repeat center center/ cover;
+	text-align: right;
+}
+.feature02 {
+	background: url("../../img/feature/bg_feature02_pc.jpg") no-repeat center center/ cover;
+}
+.feature03 {
+	background: url("../../img/feature/bg_feature03_pc.jpg") no-repeat left center/ cover;
+	text-align: right;
+}
+@media screen and (max-width: 900px) {
+	/*fv*/
+
+	/*conts*/
+	.conts {
+		background-size: 15%;
+	}
+	.catch h2 {
+		font-size: 2rem;
+		line-height: 1.5;
+	}
+	/*feature*/
+	.feature-panel p {
+		font-size: 1.4rem;
+		width: 100%;
+		line-height: 1.75;
+	}
+	.feature01,
+	.feature03 {
+		text-align: left;
+	}
+	.feature01 {
+		background: url("../../img/feature/bg_feature01_sp.jpg") no-repeat center center/ cover;
+	}
+	.feature02 {
+		background: url("../../img/feature/bg_feature02_sp.jpg") no-repeat center center/ cover;
+	}
+	.feature03 {
+		background: url("../../img/feature/bg_feature03_sp.jpg") no-repeat center center/ cover;
+	}
+
+}

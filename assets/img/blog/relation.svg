@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <image id="image" width="23" height="34" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAiCAYAAAC0nUK+AAACEUlEQVRIibXXv0tVYRzH8fc9hYjcCKUpGhQKIR0aHISmUJoSHEMX+wdya0knBVtC3KIpcFEXh3IJp6YGIYgKpMSIyCEJJIjb4A8+8rm343N+2b3nfkAu3PN8Xx4f7/P9nltZfHJATq4A94Ex4AbQA/wCPgMvgRVgP6v8Ysb7FWAamAOqwbXLQB9wF1gAZoEl4DhEohT4ArAMLKbAYapet+y6QvwpMFmAhpl0XS5+29vRTKZdn4k/bhJOrY/j+keNtIiP2Engt4COFvEOOwn8aotwwonjf0vCG04c/1YS3nDi+Lu8o3zO7NtJ4IfAWov4mp0ErswDuZ0sJweubyTE94AHwNF/wkeu28vDlXVgAqidE655/Xp4IQ1XVn0YNgrgDa9bTbuY1c+VbeAecM2v1z089In4ArwCvuf95hDXkBgFPgI//J6AZwV/gU7lALAZHxrhtswAr4EdT5f+ArTf63ZcN3PmTmMzdNQLKgHwCXgLfAV+A5eAXmAYuBmsPfb424xvSxfwPAXGQIhkpWJnEPhT35ZHHrplpM/e6Z5ryD4sCa5HXlX4FNBdMi5vSvh4yXA945E3vx0ZFN7ZJrxT+G6b8N3ID5PtyErk4/u+ZFzeUuR+rKP/piRYjrxa/YT+BO54mnxoElWd6uXIO9NyNape+EcP+mpAQ+7j6ul6TNPNaJ26nVqx+vqWG56+EPwLcAKHQGQdkzhTqAAAAABJRU5ErkJggg=="/>
+  </defs>
+  <g id="relation">
+    <use id="人物の無料素材" x="1" y="9" xlink:href="#image"/>
+    <use id="人物の無料素材_のコピー" data-name="人物の無料素材 のコピー" x="26" y="9" xlink:href="#image"/>
+  </g>
+</svg>
