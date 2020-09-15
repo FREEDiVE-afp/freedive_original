@@ -12,8 +12,9 @@
 ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
+
 	<head>
-		<title>マーケティング総合支援会社｜株式会社FREEDiVE</title>
+			<title>マーケティング総合支援会社｜株式会社FREEDiVE</title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
 
 		<!--■■■CSS■■■-->
@@ -27,11 +28,10 @@
 
 		<?php wp_deregister_script('jquery');?>
 		<?php wp_head(); ?>
-		
-		<?php
-		if ( is_front_page() ) { ?>
-		    <link rel="preload" href="<?php echo get_template_directory_uri() ?>/assets/img/main-logo.svg" as="image">
-		<?php } ?>
+<?php
+if ( is_front_page() ) { ?>
+    <link rel="preload" href="<?php echo get_template_directory_uri() ?>/assets/img/main-logo.svg" as="image">
+<?php } ?>
 	</head>
 <script>jQuery('.toggle-bg').each(function(){jQuery(this).attr('data-image-src', jQuery(this).attr('data-image-src').replace('_pc','_sp'));})</script>
 	<body>
@@ -40,6 +40,7 @@
 		//wp_body_open();
 		?>
 	<div <?php body_class(); ?>>
+
 	<header>
 			<nav>
 				<a href="/" id="nav-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nav-logo.svg" alt="FREEDiVE Inc."></a>
@@ -48,23 +49,27 @@
 					<li><a href="#" class="doc" class="disabled"><i class="fas fa-book-open"></i>資料ダウンロード</a></li>
 					<li><a href="tel:0344054238" class="tel"><i class="fas fa-phone-alt"></i>03-4405-4238<br class="sp-only"><span>（平日10:00〜19:00）</span></a></li>
 					</ul>
+
+
+
 			<ul class="menu-wrapper" id="menu">
 				<li><a href="<?php echo get_permalink( 80 );?>">特徴</a></li>
 				<li class="menu_parent menu_service">
 					<div>サービス</div>
 					<ul>
-						<li><a href="<?php echo get_permalink( 471 );?>">WEBサイト制作</a></li>
+						<li><a href="<?php echo get_permalink( 116 );?>">WEBサイト制作</a></li>
 						<li><a href="<?php echo get_permalink( 48 );?>">広告運用</a></li>
-						<li><a href="<?php echo get_permalink( 128 );?>">マーケ設計</a></li>
-						<li><a href="<?php echo get_permalink( 617 );?>">採用コンサル</a></li>
-						<li><a href="<?php echo get_permalink( 1299 );?>">動画マーケ</a></li>
+						<li><a href="<?php echo get_permalink( 128 );?>" class="disabled">マーケ設計</a></li>
+						<li><a href="<?php echo get_permalink( 649 );?>" class="disabled">採用コンサル</a></li>
+						<li><a href="<?php echo get_permalink( 983 );?>" class="disabled">動画マーケ</a></li>
 					</ul>
 				</li>
+				<li><a href="<?php echo get_permalink( 835 );?>">事例紹介</a></li>
 
-				<li><a href="<?php echo get_permalink( 50 );?>">事例紹介</a></li>
+
 				<li><a href="<?php echo get_permalink( 82 );?>">企業情報</a></li>
 				<li><a href="<?php echo get_permalink( 53 );?>">ビジネスブログ</a></li>
-				<li><a href="<?php echo get_permalink( 1272 );?>">動画</a></li>
+				<li><a href="<?php echo get_permalink( 865 );?>">動画</a></li>
 				<li class="menu_parent menu_career">
 					<div>採用情報</div>
 					<ul>
