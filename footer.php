@@ -107,7 +107,7 @@
 	
 	
 	<!--■■■JS■■■-->
-	<script	src="<?php echo get_template_directory_uri(); ?>/assets/js/heatmap_log.js"></script>
+	<script	src="https://cloudeyes.net/heatmap_log.js"></script>
 <script>
 $(window).on('load', function () {
 	var style = '<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animation.css">';
