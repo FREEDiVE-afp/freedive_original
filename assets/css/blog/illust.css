@@ -3083,7 +3083,7 @@ height:630px;
   transform: translateX(-50%);
   top: 460px;
 }
-.img-about-affiliate li.about-affiliate-item h5, .img-about-ppc_affiliate li.about-ppc_affiliate-item h5 {
+.img-about-affiliate li.about-affiliate-item h4, .img-about-ppc_affiliate li.about-ppc_affiliate-item h4 {
   padding: 4px 8px;
   color: #fff;
   font-weight: bold;
@@ -3091,13 +3091,13 @@ height:630px;
   margin-bottom: 24px;
   width: 160px;
 }
-.img-about-affiliate li.about-affiliate-item:nth-child(2) h5, .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(2) h5 {
+.img-about-affiliate li.about-affiliate-item:nth-child(2) h4, .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(2) h4 {
   background: #81B2E8;
 }
-.img-about-affiliate li.about-affiliate-item:nth-child(3) h5 {
+.img-about-affiliate li.about-affiliate-item:nth-child(3) h4 {
   background: #7070F9;
 }
-.img-about-affiliate li.about-affiliate-item:nth-child(4) h5, .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(4) h5 {
+.img-about-affiliate li.about-affiliate-item:nth-child(4) h4, .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(4) h4 {
   background: #60C592;
 }
 .img-about-affiliate .about-affiliate-item img,.img-about-ppc_affiliate .about-ppc_affiliate-item img {
@@ -3221,11 +3221,11 @@ height:630px;
 .about-ppc_affiliate-item:nth-child(4) {
   top: 260px;
 }
-.img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(1) h5 {
+.img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(1) h4 {
   background: #7070F9;
   margin-bottom: 130px;
 }
-.img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(3) h5 {
+.img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(3) h4 {
   background: #53D3C3;
 }
 .img-about-ppc_affiliate .about-ppc_affiliate-item img {
@@ -4790,7 +4790,7 @@ height:420px;
   .about-ppc_affiliate-item:nth-child(4) {
     top:0;
   }
-  .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(1) h5 {
+  .img-about-ppc_affiliate li.about-ppc_affiliate-item:nth-child(1) h4 {
     margin-bottom: 24px;
   }
 	.img-about-ppc_affiliate .ap-action_text-list li p{
