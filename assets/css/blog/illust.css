@@ -3898,7 +3898,6 @@ dl.MA_flow_desc div.CRM dt h4 {
 	margin:0 auto;
 }
 
-
 @media screen and (max-width: 900px) {
 	/*結局マーケティングってなんなの？*/
 	.img_df-ttl {
@@ -5534,6 +5533,7 @@ dl.MA_flow_desc div.CRM dt h4 {
 	.img-about-EAT ul .about-EAT-item + .about-EAT-item {
 		margin-top: 30px;
 	}
+
 	
 
 	/*----アフィリエイトのための集客にSNSを活用しよう！SNSがもたらすメリットとは？----*/
