@@ -8,7 +8,6 @@ first view
 	position: relative;
 	padding-bottom: 50px;
 	overflow: hidden;
-	
 }
 /*■■■■■■■■■■■■■■■
 waving
@@ -74,7 +73,7 @@ backface-visibility:hidden;
   border-radius: 43%;
   -ms-animation: drift 11000ms infinite 0s linear;
           animation: drift 11000ms infinite 0s linear;
-
+	
           transform: translate3d(0, 0, 0);
 backface-visibility:hidden;
 	overflow:hidden;
@@ -323,7 +322,7 @@ Members
 	top: 30%;
 	transform: rotate(45deg);
 	transform-origin: center center;
-
+	
 }
 .team_cd {
 	writing-mode: tb-rl;
