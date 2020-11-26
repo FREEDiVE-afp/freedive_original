@@ -6085,6 +6085,10 @@ dl.MA_flow_desc div.CRM dt h4 {
 	padding: 40px 0;
 	margin: 0;
 }
+/* Instagram広告徹底解説 */
+.insta_ad_image {
+  max-width: 360px;
+}
 @media screen and (max-width: 900px) {
 	/*結局マーケティングってなんなの？*/
 	.img_df-ttl {
