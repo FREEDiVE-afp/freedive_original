@@ -57,7 +57,7 @@
 								<dt itemprop="hasPart" itemscope itemtype="http://schema.org/WebPage">サービス</dt>
 								<dd itemprop="name"><a href="<?php echo get_permalink( 116 );?>" itemprop="url">WEBサイト制作</a></dd>
 								<dd itemprop="name"><a href="<?php echo get_permalink( 48 );?>" itemprop="url">広告運用</a></dd>
-								<dd itemprop="name"><a href="<?php echo get_permalink( 128 );?>" itemprop="url" class="disabled">マーケティング設計</a></dd>
+								<!--<dd itemprop="name"><a href="<?php echo get_permalink( 128 );?>" itemprop="url" class="disabled">マーケティング設計</a></dd>-->
 								<dd itemprop="name"><a href="<?php echo get_permalink( 649 );?>" itemprop="url" class="disabled">採用コンサルティング</a></dd>
 								<dd itemprop="name"><a href="<?php echo get_permalink( 983 );?>" itemprop="url" class="disabled">動画マーケティング</a></dd>
 							</dl>
@@ -200,10 +200,10 @@ new Vivus('move', {
     "author": {
 "@context": "http://schema.org",
 "@type": "Person",
-"name": "Koki Ando",
-"sameAs": ["https://twitter.com/KOK1ANDO", "https://www.facebook.com/koki0627","https://www.youtube.com/channel/UCXb4b0gBH90FAQ8cPIAPojA"],
-"image": "https://freedive.co.jp/wp-content/uploads/2020/01/k-ando.jpg",
-"alternateName": ["安藤 弘樹"],
+"name": "Shohei Imai",
+"sameAs": ["https://www.facebook.com/xoh.imi"],
+"image": "https://freedive.co.jp/wp-content/uploads/2020/01/s-imai.jpg",
+"alternateName": ["今井 渉平"],
 "worksFor": {
 	"@type": "Corporation",
 	"name": ["FREEDiVE Inc.", "株式会社FREEDiVE"],
@@ -238,9 +238,7 @@ new Vivus('move', {
         }
         ],
 "sameAs":[ //関連サイトやSNS
-"https://twitter.com/KOK1ANDO",
-"https://www.facebook.com/koki0627",
-"https://www.youtube.com/channel/UCXb4b0gBH90FAQ8cPIAPojA"
+"https://www.facebook.com/xoh.imi"
 ]
 }
 </script>
