@@ -68,7 +68,7 @@ setPostViews(get_the_ID());
     "dateModified": "<?php the_modified_date('Y-m-d') ?>",
     "author": {
         "@type": "Person",
-        "name": "安藤 弘樹（Koki Ando）"
+        "name": "今井 渉平"
     },
     "publisher": {
         "@type": "Organization",
