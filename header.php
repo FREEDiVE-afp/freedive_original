@@ -59,7 +59,7 @@ if ( is_front_page() ) { ?>
 					<ul>
 						<li><a href="<?php echo get_permalink( 116 );?>">WEBサイト制作</a></li>
 						<li><a href="<?php echo get_permalink( 48 );?>">広告運用</a></li>
-						<li><a href="<?php echo get_permalink( 128 );?>" class="disabled">マーケ設計</a></li>
+						<!--<li><a href="<?php echo get_permalink( 128 );?>" class="disabled">マーケ設計</a></li>-->
 						<li><a href="<?php echo get_permalink( 649 );?>" class="disabled">採用コンサル</a></li>
 						<li><a href="<?php echo get_permalink( 983 );?>" class="disabled">動画マーケ</a></li>
 					</ul>
