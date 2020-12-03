@@ -58,8 +58,8 @@
 								<dd itemprop="name"><a href="<?php echo get_permalink( 116 );?>" itemprop="url">WEBサイト制作</a></dd>
 								<dd itemprop="name"><a href="<?php echo get_permalink( 48 );?>" itemprop="url">広告運用</a></dd>
 								<!--<dd itemprop="name"><a href="<?php echo get_permalink( 128 );?>" itemprop="url" class="disabled">マーケティング設計</a></dd>-->
-								<dd itemprop="name"><a href="<?php echo get_permalink( 649 );?>" itemprop="url" class="disabled">採用コンサルティング</a></dd>
-								<dd itemprop="name"><a href="<?php echo get_permalink( 983 );?>" itemprop="url" class="disabled">動画マーケティング</a></dd>
+								<!--<dd itemprop="name"><a href="<?php echo get_permalink( 649 );?>" itemprop="url" class="disabled">採用コンサルティング</a></dd>-->
+								<!--<dd itemprop="name"><a href="<?php echo get_permalink( 983 );?>" itemprop="url" class="disabled">動画マーケティング</a></dd>-->
 							</dl>
 						</li>
 						<li class="footer-nav_career" itemprop="hasPart" itemscope itemtype="http://schema.org/WebPage">
