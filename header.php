@@ -60,8 +60,8 @@ if ( is_front_page() ) { ?>
 						<li><a href="<?php echo get_permalink( 116 );?>">WEBサイト制作</a></li>
 						<li><a href="<?php echo get_permalink( 48 );?>">広告運用</a></li>
 						<!--<li><a href="<?php echo get_permalink( 128 );?>" class="disabled">マーケ設計</a></li>-->
-						<li><a href="<?php echo get_permalink( 649 );?>" class="disabled">採用コンサル</a></li>
-						<li><a href="<?php echo get_permalink( 983 );?>" class="disabled">動画マーケ</a></li>
+						<!--<li><a href="<?php echo get_permalink( 649 );?>" class="disabled">採用コンサル</a></li>-->
+						<!--<li><a href="<?php echo get_permalink( 983 );?>" class="disabled">動画マーケ</a></li>-->
 					</ul>
 				</li>
 				<li><a href="<?php echo get_permalink( 835 );?>">事例紹介</a></li>
@@ -69,7 +69,7 @@ if ( is_front_page() ) { ?>
 
 				<li><a href="<?php echo get_permalink( 82 );?>">企業情報</a></li>
 				<li><a href="<?php echo get_permalink( 53 );?>">ビジネスブログ</a></li>
-				<li><a href="<?php echo get_permalink( 865 );?>">動画</a></li>
+				<!--<li><a href="<?php echo get_permalink( 865 );?>">動画</a></li>-->
 				<li class="menu_parent menu_career">
 					<div>採用情報</div>
 					<ul>
