@@ -32,6 +32,7 @@
 * as indicating support for post thumbnails.
 */
 
+
 function my_freedive_style() {
   wp_enqueue_style( 'css-reset', get_template_directory_uri() . '/assets/css/reset.css');
   wp_enqueue_style( 'css-common', get_template_directory_uri() . '/assets/css/common.css');
