@@ -191,7 +191,7 @@ new Vivus('move', {
 });
 	</script>
 	<?php endif; ?>
-<script type="application/ld+json">
+	<script type="application/ld+json">
 		{
 		"@context": "http://schema.org",
 		"@type": "WebSite",
@@ -202,7 +202,7 @@ new Vivus('move', {
 		"@type": "Person",
 		"name": ["Shohei Imai","Tatsuki Tsuru"],
 		"sameAs": ["https://www.facebook.com/xoh.imi","https://twitter.com/YabaAD_coo"],
-		"image": ["https://freedive.co.jp/wp-content/uploads/2020/01/s-imai.jpg","https://freedive.co.jp/wp-content/uploads/2020/02/t-tsuru.jpg"],
+		"image": "https://freedive.co.jp/wp-content/uploads/2020/01/s-imai.jpg",
 		"alternateName": ["今井 渉平","都留樹生"],
 		"worksFor": {
 			"@type": "Corporation",
@@ -238,11 +238,7 @@ new Vivus('move', {
 			"contactType" : "customer service"
 		}
 	],
-	"sameAs":[ //関連サイトやSNS
-		"https://twitter.com/KOK1ANDO",
-		"https://www.facebook.com/koki0627",
-		"https://www.youtube.com/channel/UCXb4b0gBH90FAQ8cPIAPojA"
-	]
+	"sameAs":["https://www.facebook.com/xoh.imi","https://twitter.com/YabaAD_coo"]
 }
 </script>
 <!-- Load `web-vitals` using a classic script that sets the global `webVitals` object. -->
