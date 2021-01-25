@@ -61,14 +61,14 @@ function my_freedive_style() {
     wp_enqueue_style( 'css-style', get_template_directory_uri() . '/assets/css/blog/style.css');
     wp_enqueue_style( 'css-screen', get_template_directory_uri() . '/assets/css/blog/screen.min.css');
   }
-  if (in_category('business-blog')) {
+  if (in_category('business-blog') && !is_front_page() ) {
     wp_enqueue_style( 'css-illust', get_template_directory_uri() . '/assets/css/blog/illust.css');
   }
   if (is_page( 'case-study' )||in_category('case-study')) {
     wp_enqueue_style( 'css-style', get_template_directory_uri() . '/assets/css/case-study/style.css');
 		wp_enqueue_style( 'css-screen', get_template_directory_uri() . '/assets/css/blog/screen.min.css');
   }
-  if (!is_page( 'case-study' ) && in_category('case-study')) {
+  if (!is_page( 'case-study' ) && in_category('case-study') && !is_front_page() ) {
 	 wp_enqueue_style( 'css-illust', get_template_directory_uri() . '/assets/css/case-study/illust.css');
   }
   if (is_page( 'feature' )) {
