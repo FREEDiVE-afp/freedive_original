@@ -191,55 +191,54 @@ new Vivus('move', {
 });
 	</script>
 	<?php endif; ?>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "name": "マーケティング総合支援会社｜株式会社FREEDiVE",
-  "url": "https://freedive.co.jp/",
-    "author": {
-"@context": "http://schema.org",
-"@type": "Person",
-"name": "Shohei Imai",
-"sameAs": ["https://www.facebook.com/xoh.imi"],
-"image": "https://freedive.co.jp/wp-content/uploads/2020/01/s-imai.jpg",
-"alternateName": ["今井 渉平"],
-"worksFor": {
-	"@type": "Corporation",
-	"name": ["FREEDiVE Inc.", "株式会社FREEDiVE"],
-	"url": "https://freedive.co.jp/"}
-	}
-}
+	<script type="application/ld+json">
+		{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name": "マーケティング総合支援会社｜株式会社FREEDiVE",
+		"url": "https://freedive.co.jp/",
+		"author": {
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"name": ["Shohei Imai","Tatsuki Tsuru"],
+		"sameAs": ["https://www.facebook.com/xoh.imi","https://twitter.com/YabaAD_coo"],
+		"image": "https://freedive.co.jp/wp-content/uploads/2020/01/s-imai.jpg",
+		"alternateName": ["今井 渉平","都留樹生"],
+		"worksFor": {
+			"@type": "Corporation",
+			"name": ["FREEDiVE Inc.", "株式会社FREEDiVE"],
+			"url": "https://freedive.co.jp/"
+		}
+			}
+		}
 </script>
-<script type="application/ld+json">
-{
-    "@context" : "https://schema.org",
-    "@type" : "Organization",
-    "name" : "株式会社FREEDiVE",
-    "founder":"今井渉平",
-    "foundingDate":"2016-06-03", //設立日
-    "description" : "株式会社FREEDiVE（フリーダイブ）は、クライアントファーストを至上命題とするマーケティング企業です。徹底した仕組み化を実践している運用戦略設計と、それを実践する「人」の育成に重きをおいて広告主様ひいては社会に対しての課題解決を目指します。",
-    "url" : "https://freedive.co.jp/",
-    "logo": "https://freedive.co.jp/wp-content/themes/freedive_original/assets/img/nav-logo.svg",
-    "telephone" : "+81-03-4405-4238", //電話番号
-    "faxNumber": "+81-03-6748-8258", //FAX番号
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "渋谷区神宮前",
-        "addressRegion": "東京都",
-        "postalCode": "143-0023",
-        "streetAddress": "3-42-2",
-        "addressCountry": "JP"
-    },
-    "contactPoint" :[
-        { "@type" : "ContactPoint",
-        "telephone" : "+81-03-4405-4238",
-        "contactType" : "customer service"
-        }
-        ],
-"sameAs":[ //関連サイトやSNS
-"https://www.facebook.com/xoh.imi"
-]
+	<script type="application/ld+json">
+	{
+		"@context" : "https://schema.org",
+		"@type" : "Organization",
+		"name" : "株式会社FREEDiVE",
+		"founder":"今井渉平",
+		"foundingDate":"2016-06-03", //設立日
+		"description" : "株式会社FREEDiVE（フリーダイブ）は、クライアントファーストを至上命題とするマーケティング企業です。徹底した仕組み化を実践している運用戦略設計と、それを実践する「人」の育成に重きをおいて広告主様ひいては社会に対しての課題解決を目指します。",
+		"url" : "https://freedive.co.jp/",
+		"logo": "https://freedive.co.jp/wp-content/themes/freedive_original/assets/img/nav-logo.svg",
+		"telephone" : "+81-03-4405-4238", //電話番号
+		"faxNumber": "+81-03-6748-8258", //FAX番号
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "渋谷区神宮前",
+			"addressRegion": "東京都",
+			"postalCode": "143-0023",
+			"streetAddress": "3-42-2",
+			"addressCountry": "JP"
+		},
+		"contactPoint" :[
+			{ "@type" : "ContactPoint",
+			"telephone" : "+81-03-4405-4238",
+			"contactType" : "customer service"
+		}
+	],
+	"sameAs":["https://www.facebook.com/xoh.imi","https://twitter.com/YabaAD_coo"]
 }
 </script>
 <!-- Load `web-vitals` using a classic script that sets the global `webVitals` object. -->
