@@ -3,9 +3,9 @@
 
 Template Name:  ブログ
 */
-$analytics = initializeAnalytics();
+/*$analytics = initializeAnalytics();
 $profile = getFirstProfileId($analytics);
-$results = getResults($analytics, $profile);
+$results = getResults($analytics, $profile);*/
 get_header(); ?>
 		<section class="fv">
 				<div>
