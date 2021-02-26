@@ -383,14 +383,14 @@ function hatenaButton($encode_url,$encode_title){
 *
 * @return string
 */
-function twitter($account,$encode_url,$encode_title){
+function twitter(/*$account,*/$encode_url,$encode_title){
 
   $url = "https://twitter.com/intent/tweet?text={$encode_title} {$encode_url}";
   $inline = '<i class="fab fa-twitter"></i><span class="pc-only-inline">Twitter</span>';//Text::locale("Share on Facebook");
   $class= 'twitter-share-btn';
-  $option = " data-via='{$account}' data-lang='ja' data-show-count='false' ";
+  //$option = " data-via='{$account}' data-lang='ja' data-show-count='false' ";
 
-  return share_sns($url , $inline , $class,$option);
+  return share_sns($url , $inline , $class/*,$option*/);
 }
 
 /**
