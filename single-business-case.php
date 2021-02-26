@@ -68,7 +68,7 @@ setPostViews(get_the_ID());
     "dateModified": "<?php the_modified_date('Y-m-d') ?>",
     "author": {
         "@type": "Person",
-        "name": "安藤 弘樹（Koki Ando）"
+        "name": "今井 渉平"
     },
     "publisher": {
         "@type": "Organization",
@@ -101,7 +101,7 @@ setPostViews(get_the_ID());
 					<ul class="share-btns">
 						<?php echo  hatenaButton(get_the_permalink(),get_the_title()); ?>
 						<?php echo  facebook(get_the_permalink(),get_the_title()); ?>
-						<?php echo  twitter('@KOK1ANDO',get_the_permalink(),get_the_title()); ?>
+						<?php echo  twitter(/*'@KOK1ANDO',*/get_the_permalink(),get_the_title()); ?>
 					</ul>
 					<a href="https://freedive.co.jp/contact/business-contact.html" class="cv_whale"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/whale_line.svg" alt="">
 							<span>ご相談はこちら<span class="arrow-double"></span></span></a>
