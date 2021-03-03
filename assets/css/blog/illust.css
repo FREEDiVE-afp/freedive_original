@@ -6424,6 +6424,51 @@ dl.MA_flow_desc div.CRM dt h4 {
 	top: 270px;
 	right: -60px;
 }
+/* Twitter広告 */
+.Twitter_ad_type {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 60px 20px;
+}
+.Twitter_ad_type .inner {
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+.Twitter_ad_type .inner p {
+  position: absolute;
+  background: #00b0f0;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+  line-height: 1;
+}
+.Twitter_ad_type .inner .trend {
+  top: 164px;
+  left: 12px;
+  width: 140px;
+}
+.Twitter_ad_type .inner .tweet {
+  top: 70px;
+  right: 210px;
+  width: 290px;
+  height: 195px;
+  line-height: 175px;
+}
+.Twitter_ad_type .inner .account {
+  top: 48px;
+  right: 12px;
+}
+.Twitter_ad_type .inner img {
+  width: 700px;
+}
+.Twitter_ad_type .inner .sp_img {
+  display: none;
+}
 @media screen and (max-width: 900px) {
 	/*結局マーケティングってなんなの？*/
 	.img_df-ttl {
@@ -8353,4 +8398,42 @@ dl.MA_flow_desc div.CRM dt h4 {
 	.ad_network_03_inner .browsing .arrow_03 {
 		left: -40px;
 	}
+	/* Twitter広告 */
+	.Twitter_ad_type {
+    padding: 30px 0px;
+  }
+  .Twitter_ad_type .inner {
+    width: 320px;
+  }
+  .Twitter_ad_type .inner p {
+    width: 126px;
+  }
+  .Twitter_ad_type .inner .trend {
+    top: 68px;
+    left: 8px;
+    width: 140px;
+  }
+  .Twitter_ad_type .inner .tweet {
+    top: 68px;
+    right: 7px;
+    width: 140px;
+    height: 60px;
+    line-height: 40px;
+  }
+  .Twitter_ad_type .inner .account {
+    top: 195px;
+    right: 7px;
+    line-height: 1.2;
+    width: 140px;
+  }
+  .Twitter_ad_type .inner img {
+    width: 320px;
+  }
+  .Twitter_ad_type .inner .sp_img {
+    width: 100%;
+    display: block;
+  }
+  .Twitter_ad_type .inner .pc_img {
+    display: none;
+  }
 }
