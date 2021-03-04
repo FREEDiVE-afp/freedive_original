@@ -349,13 +349,16 @@ course
 .course-detail ul {
 	margin: 1em auto;
 }
+.course-detail ol {
+	counter-reset: item;
+}
 .course-detail li {
 	font-size: 1.6rem;
 	line-height: 1.75;
 	padding-left: 1.5em;
 	position: relative;
 }
-.course-detail li::before {
+.course-detail ul>li::before {
 	content: "";
 	display: block;
 	background: #aaa;
@@ -364,9 +367,15 @@ course
 	transform: rotate(45deg);
 	position: absolute;
 	left: .5em;
-	top: 0;
-	bottom: 0;
+	top: 0.7em;
 	margin: auto;
+}
+.course-detail ol>li::before {
+	counter-increment: item;
+	content: counter(item)'.';
+	display: inline;
+	font-weight: bold;
+	margin-right: 0.25em;
 }
 /*each style*/
 .business-course h2 {
