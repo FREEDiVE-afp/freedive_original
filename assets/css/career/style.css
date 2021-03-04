@@ -346,6 +346,9 @@ course
 	font-size: 1.6rem;
 	line-height: 1.75;
 }
+.course-detail > div p + p {
+	margin-top: 1em;
+}
 .course-detail ul {
 	margin: 1em auto;
 }
