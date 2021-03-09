@@ -646,6 +646,7 @@ margin-top: 10px;
 .mark-blue {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(75%, #9FE6DF));
   background: linear-gradient(transparent 75%, #9FE6DF 75%);
+  display:inline;
 }
 .mark-pink {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(75%, #E69FC1));
@@ -4289,6 +4290,7 @@ dl.MA_flow_desc div.CRM dt h4 {
 }
 .main-txt figure.img-method-raise-inG div div:nth-child(2) div:nth-child(1){
 	position:absolute;
+
 	border:solid 2px #3f3be2;
 	border-radius:8px;
 	width:440px;
