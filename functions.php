@@ -390,7 +390,7 @@ function twitter(/*$account,*/$encode_url,$encode_title){
   $class= 'twitter-share-btn';
   //$option = " data-via='{$account}' data-lang='ja' data-show-count='false' ";
 
-  return share_sns($url , $inline , $class/*,$option*/);
+  return share_sns($url , $inline , $class,$option);
 }
 
 /**
