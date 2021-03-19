@@ -35,7 +35,7 @@
 						<dt>代表取締役</dt>
 						<dd itemprop="founder">今井渉平</dd>
 						<dt>所在地</dt>
-						<dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">東京都渋谷区神宮前3-42-2 VORT外苑前Ⅲ 5F<br><a href="https://goo.gl/maps/PBgH3fna3Wv" target="_blank">Google Maps＞</a></dd>
+						<dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">〒150-0002 東京都渋谷区渋谷2-14-6 第2かわなビル 7F<br><a href="https://goo.gl/maps/TsWpub5Gcq2hws4e7" target="_blank">Google Maps＞</a></dd>
 						<dt>電話番号</dt>
 						<dd itemprop="telephone">03-4405-4238</dd>
 						<dt>FAX</dt>
