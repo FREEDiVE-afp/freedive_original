@@ -6821,6 +6821,234 @@ dl.MA_flow_desc div.CRM dt h4 {
 	bottom:auto;
 	top:-22px;
 }
+.img-kpi-diagram{
+	text-align:center;
+	background:url("https://freedive.co.jp/wp-content/uploads/2021/03/kgi-bg.svg");
+	background-size:90% auto;
+	background-position:center 23%;
+	background-repeat:no-repeat;
+}
+.img-kpi-diagram figure{
+	width:80px;
+}
+.img-kpi-diagram figure img{
+	width:100%;
+}
+.img-kpi-diagram > ol{
+	display:flex;
+	flex-direction:column;
+}
+.img-kpi-diagram .kpi-diagram-item{
+	position:relative;
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number{
+	display:block;
+	width:3.6rem;
+	height:3.6rem;
+	font-size:2.0rem;
+	line-height:3.6rem;
+	font-weight:bold;
+	background:#fff;
+	border:1px solid #333;
+	border-radius:50%;
+	position:absolute;
+	z-index:2;
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number01{
+	top:-10px;
+	left:-10px;
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number02{
+	top:calc(50% - 1.8rem);
+	left:calc(50% - 32rem);
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number03,
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number04{
+	top:calc(50% - 1.8rem);
+	left:-1.8rem;
+}
+.img-kpi-diagram .kpi-diagram-item--kgi{
+	order:2;
+	display:flex;
+	flex-direction:column-reverse;
+	margin-top:-72px;
+}
+.img-kpi-diagram .kpi-diagram-item--ksf{
+	order:1;
+	width:90%;
+	margin:0 auto;
+}
+.img-kpi-diagram .kpi-diagram-item--kpi{
+	order:3;
+	margin-top:-64px;
+	position:relative;
+	z-index:0;
+}
+.img-kpi-diagram .kpi-diagram-item--kbi{
+	order:4;
+	margin-top:16px;
+}
+.img-kpi-diagram .kpi-diagram-item h4{
+	font-size:2.0rem;
+	color:#333;
+	font-weight:bold;
+	border:1px solid #333;
+	border-radius:3px;
+	display:inline-block;
+}
+.img-kpi-diagram .kpi-diagram-item h4 span{
+	font-size:1.6rem;
+	font-weight:normal;
+	display:block;
+}
+.img-kpi-diagram .kpi-diagram-item .road-to-kgi{
+	width:93%;
+	margin:0 auto;
+}
+.kpi-diagram-item .road-to-kgi ul{
+	background:url("https://freedive.co.jp/wp-content/uploads/2021/03/to-kgi-line.svg");
+	background-repeat:no-repeat;
+	background-size:90% 95%;
+	background-position:50% 95%;
+	display:flex;
+	justify-content:space-between;
+}
+.road-to-kgi ul p{
+	display:inline-block;
+	font-size:1.6rem;
+	color:#fff;
+	background:#333;
+	padding:2px 12px;
+	border-radius:3px;
+	position:relative;
+	top:-50px;
+	z-index:0;
+}
+.road-to-kgi figure{
+	position:relative;
+	z-index:1;
+}
+.img-kpi-diagram .kpi-diagram-item--kgi h4{
+	margin:0;
+	position:absolute;
+	right:0;
+	bottom:0;
+	background:#fff;
+	z-index:1;
+}
+.kpi-diagram-item--ksf{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.kpi-diagram-item--ksf div{
+	position:relative;
+	display:flex;
+	align-items:center;
+}
+.kpi-diagram-item--ksf h4{
+	background:#F9F088;
+	width:90%;
+}
+.img-kpi-diagram .kpi-diagram-item--ksf h4 span{
+	display:inline-block;;
+	margin-left:4px;
+}
+.kpi-diagram-item--ksf h4 + figure{
+	position:absolute;
+	right:calc(50% - 40px - 20rem);
+}
+.kpi-diagram-item--ksf p{
+	color:#fff;
+	background:#333;
+	padding:2px 100px 2px 12px;
+	border-radius:3px;
+	position:relative;
+}
+.kpi-diagram-item--ksf p:after{
+	content:"";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 14px 12px 0 12px;
+	border-color: #EAEAEA transparent transparent transparent;
+	position:absolute;
+	top:calc(100% + 12px);
+	left:calc(50% - 12px);
+}
+.kpi-diagram-item--ksf p + figure{
+	position:absolute;
+	right:calc(50% - 40px - 11rem);
+}
+.kpi-diagram-item--kpi,
+.kpi-diagram-item--kbi,
+.kpi-diagram-item--kpi div,
+.kpi-diagram-item--kbi div,
+.kpi-diagram-item--kpi ul,
+.kpi-diagram-item--kbi ul{
+	display:flex;
+	align-items:center;
+}
+.kpi-diagram-item--kpi div,
+.kpi-diagram-item--kbi div{
+	border:1px solid #333;
+	border-radius:3px;
+	padding:4px 12px;
+	background:#FFB7BA;
+	z-index:1;
+}
+.kpi-diagram-item--kbi div{
+	background:#BEFAF8;
+}
+.img-kpi-diagram .kpi-diagram-item--kpi h4,
+.img-kpi-diagram .kpi-diagram-item--kbi h4{
+	border:none;
+	margin:0;
+}
+.img-kpi-diagram .kpi-diagram-item--kpi figure,
+.img-kpi-diagram .kpi-diagram-item--kbi figure{
+	width:60px;
+	margin:0;
+}
+.kpi-diagram-item--kpi ul,
+.kpi-diagram-item--kbi ul{
+	width:100%;
+	background: linear-gradient(transparent 0%,transparent 19.9%, #FFF0F1 20%,#FFF0F1 80%,transparent 80.1%,transparent 100%);
+	justify-content:center;
+	position:absolute;
+}
+.kpi-diagram-item--kbi ul{
+	background: linear-gradient(transparent 0%,transparent 19.9%, #E3FFFE 20%,#E3FFFE 80%,transparent 80.1%,transparent 100%);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center;
+}
+.kpi-diagram-item--kpi ul li,
+.kpi-diagram-item--kbi ul li{
+	font-size:1.6rem;
+	font-weight:bold;
+	border:1px solid #333;
+	border-radius:3px;
+	padding:12px;
+	background:#fff;
+	position:relative;
+	margin:0 48px;
+}
+.kpi-diagram-item--kpi ul li{
+	position:relative;
+	z-index:100;
+}
+.kpi-diagram-item--kbi ul li:before{
+	content:"";
+	display:block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 12px 14px 12px;
+	border-color: transparent transparent #333 transparent;
+	position:absolute;
+	top:-32px;
+	left:calc(50% - 12px);
+}
 @media screen and (max-width: 900px) {
 	/*結局マーケティングってなんなの？*/
 	.img_df-ttl {
@@ -8988,4 +9216,159 @@ dl.MA_flow_desc div.CRM dt h4 {
 		position:relative;
 		left:0.65em;
 	}
+	.main-txt .img-kpi-diagram{
+	background:url("https://freedive.co.jp/wp-content/uploads/2021/03/kgi-bg_sp.svg");
+	background-size:auto 84%;
+	background-position:80% center;
+		background-repeat:no-repeat;
+		max-width:400px;
+		margin:90px auto 30px;
+		padding-bottom:calc(20px + 5.2rem);
+}
+.img-kpi-diagram figure{
+	width:60px;
+}
+.img-kpi-diagram > ol{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-between;
+}
+.img-kpi-diagram .kpi-diagram-item + li{
+	margin-top:0;
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number02{
+	top:-1.8rem;
+	left:calc(50% - 1.8rem);
+}
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number03,
+.img-kpi-diagram .kpi-diagram-item .kpi-diagram-number04{
+	top:-1.0rem;
+	left:calc(50% - 1.8rem);
+}
+.img-kpi-diagram .kpi-diagram-item--ksf{
+	width:auto;
+	margin:0;
+}
+.img-kpi-diagram .kpi-diagram-item--kpi{
+	top:0;
+}
+.img-kpi-diagram .kpi-diagram-item--kbi{
+	top:0;
+}
+.img-kpi-diagram .kpi-diagram-item .road-to-kgi{
+	width:auto;
+	height:100%;
+}
+.kpi-diagram-item .road-to-kgi ul{
+	background:url("https://freedive.co.jp/wp-content/uploads/2021/03/to-kgi-line_sp.svg");
+	background-repeat:no-repeat;
+	background-size:auto 90%;
+	background-position:center;
+	flex-direction:column;
+	width:140px;
+	height:100%;
+	margin-right:-20px;
+}
+.road-to-kgi ul p{
+	margin-top:-4px;
+	margin-bottom:0;
+	top:0;
+}
+.road-to-kgi figure{
+	margin:0 auto;
+}
+.img-kpi-diagram .kpi-diagram-item--kgi h4{
+	width:14.4rem;
+	right:calc(50% - 7.2rem);
+	bottom:auto;
+	top:calc(100% + 8px);
+}
+.kpi-diagram-item--ksf{
+	flex-direction:row;
+}
+.kpi-diagram-item--ksf div + div{
+	margin-left:32px;
+}
+.kpi-diagram-item--ksf h4{
+	width:auto;
+	height:100%;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	padding:0;
+	position:relative;
+}
+.img-kpi-diagram .kpi-diagram-item--ksf h4 span{
+	margin-left:0;
+	margin-top:8px;
+}
+.kpi-diagram-item--ksf h4 + figure{
+	right:calc(50% - 30px);
+	bottom:calc(50% - 30px - 24rem);
+}
+.kpi-diagram-item--ksf p{
+	writing-mode: vertical-rl;
+	padding:4px 0px 80px;
+}
+	.kpi-diagram-item--ksf p:after{
+	border-width: 12px 14px 12px 0;
+	border-color: transparent #eaeaea transparent transparent;
+	top:calc(50% - 12px);
+	left:-26px;
+}
+.kpi-diagram-item--ksf p + figure{
+	right:calc(50% - 30px);
+	bottom:calc(50% - 30px - 14rem)
+}
+.kpi-diagram-item--kpi,
+.kpi-diagram-item--kbi,
+.kpi-diagram-item--kpi div,
+.kpi-diagram-item--kbi div,
+.kpi-diagram-item--kpi ul,
+.kpi-diagram-item--kbi ul{
+	flex-direction:column;
+}
+	.kpi-diagram-item--kpi{
+		margin-right:-30px;
+	}
+	.kpi-diagram-item--kbi{
+		margin-right:20px;
+	}
+.kpi-diagram-item--kpi div,
+.kpi-diagram-item--kbi div{
+	padding:20px 4px 2px;
+}
+	.img-kpi-diagram .kpi-diagram-item--kpi h4 span,
+	.img-kpi-diagram .kpi-diagram-item--kbi h4 span{
+		text-align:left;
+	}
+.img-kpi-diagram .kpi-diagram-item--kpi figure,
+.img-kpi-diagram .kpi-diagram-item--kbi figure{
+	width:52px;
+}
+.kpi-diagram-item--kpi ul,
+.kpi-diagram-item--kbi ul{
+	width:30%;
+	height:98%;
+	background:#FFF0F1;
+	position:absolute;
+}
+.kpi-diagram-item--kbi ul{
+	background: #E3FFFE;
+}
+.kpi-diagram-item--kpi ul li,
+.kpi-diagram-item--kbi ul li{
+	padding:6px;
+	margin:30px 0;
+}
+.kpi-diagram-item--kpi ul li{
+	position:relative;
+	z-index:100;
+}
+.kpi-diagram-item--kbi ul li:before{
+	border-style: solid;
+	border-width: 12px 0 12px 14px;
+	border-color: transparent transparent transparent #333;
+	top:calc(50% - 12px);
+	left:calc(100% + 8px);
+}
 }
