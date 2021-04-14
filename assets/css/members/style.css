@@ -280,8 +280,28 @@ bottom: 0;
 	background-color: #ECCEF5;
 	color: #333;
 }
+#afp-ro{
+	background-color:#D6EAF8;
+	color:#333;
+}
+#m-suzuki{
+	background-color:#D2B4DE;
+	color:#333;
+}
+#y-ohmi{
+	background-color: #3498DB;
+	color: #fff;
+}
+#t-ohashi{
+	background-color: #239B56;
+	color: #fff;
+}
+#cd-hk{
+	background-color: #D1C4E9;
+	color: #333;
+}
 #s-imai .modal_img {
-	background-image: url("../../img/members/s-imai.jpg");
+    background-image: url("../../img/members/s-imai.jpg");
 	background-position: center center;
 }
 #k-yamamoto .modal_img {
@@ -351,6 +371,26 @@ bottom: 0;
 }
 #k-okajima .modal_img {
 	background-image: url("../../img/members/k_okajima.jpg");
+	background-position: center center;
+}
+#afp-ro .modal_img{
+	background-image:url("../../img/members/afp-ro.JPG");
+	background-position: center center;
+}
+#m-suzuki .modal_img{
+	background-image:url("../../img/members/m-suzuki.jpg");
+	background-position: center center;
+}
+#y-ohmi .modal_img{
+	background-image: url("../../img/members/y_ohmi.jpeg");
+	background-position: center center;
+}
+#t-ohashi .modal_img{
+	background-image: url("../../img/members/t_ohashi.jpg");
+	background-position: center center;
+}
+#cd-hk .modal_img{
+	background-image: url("../../img/members/cd-hk.png");
 	background-position: center center;
 }
 .ex-message-link {
